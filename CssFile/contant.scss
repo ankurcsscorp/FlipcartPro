@@ -1,0 +1,60 @@
+.sorting{
+    display: inline ;
+   padding: 25px;
+}
+.priceSorting
+{
+    float: right;
+    margin-top: -600px;
+    margin-right: 350px;
+}
+.pro_pic
+{
+    height: 400px;
+    width: 200px;
+    border: 1px solid black;
+    float: right;
+//  margin-top: -500px;
+ margin: 10px;
+}
+.imgDynamic
+{
+    height: 220px;
+    width: 200px; 
+}
+
+#product-list
+{
+    float: right;
+    margin-top: -550px;
+    margin-right: 0px;
+}
+.inner_div_price
+{
+height: 116px;
+width: 200px;
+ border-style: none;
+ 
+  margin-top: 10px;
+  text-align: center;
+}
+html
+{
+    body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+.Add_to_cart
+{
+    height: 48px;
+    width: 200px;
+    border: solid 1px white;
+}
+.cart_class
+{
+    margin-left: 45px;
+    margin-top: 7px;
+    padding: 7px 22px;
+}
+

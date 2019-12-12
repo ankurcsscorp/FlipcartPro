@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flipkart</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="CssFile/header.css">
+<link rel="stylesheet" href="CssFile/media.css">
+<link rel="stylesheet" href="CssFile/sidebar.css">
+<link rel="stylesheet" href="CssFile/contant.css">
+<link rel="stylesheet" href="CssFile/dropDown.css">
+<link rel="stylesheet" href="CssFile/sucessFull.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="JSFile/script.js"></script>
+<script src="JSFile/cartScript.js"></script>
+<script src="JSFile/carousel.js"></script>
+<link rel="stylesheet" href="CssFile/styleCart.css">
+
+</head>
+<body>
+    <header id="header" style="width: 100%;margin: 0px;">
+            <i class="fa fa-star"></i><span id="logo">FlipKart</span>
+            <div id="icons">
+        <input type="text" id="search-box"  placeholder="Search" >
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <i id="cartt" class="fa fa-cart-plus"  aria-hidden="true" onclick="BottomFunction();"></i><span id="cart_no" onclick="BottomFunction();" style="display: none;">0</span>
+    </div>
+    </header>
+    <!-- DropDown -->
+    <div class="dropdown">
+            <ul class="mainList"> 
+                    <li class="mainListDrop">jhsdfhaf</li>
+                    <li class="mainListDrop">jsdhjkhsj</li>
+                <li onclick="myFunction()" class="dropbtn mainListDrop">DropDown
+                    <ul id="myDropdown" class="dropdown-content"style="color: black;" >
+                    <li class="afterClickList">jsdjhaj</li>
+                    <li class="afterClickList">sjdkasfalskfl;</li>
+                    <li class="afterClickList">dklfhayfuehzn</li>
+                    <li class="afterClickList">kshdjkfhj</li>
+                    </ul>
+                </li>
+               <li class="mainListDrop">jhsdfhaf</li>
+               <li class="mainListDrop">jsdhjkhsj</li>
+            </ul>
+          </div>
+          <!-- Carousel -->
+    <!-- <div class="w3-content w3-section" style="max-width:100%; max-height: 150px; margin-top: 10px;">
+            <img class="mySlides" src="https://theshopperz.com/wp-content/uploads/2016/01/flipkart-coupons-banner-offers.jpg" style="width:100%;height:250px;">
+            <img class="mySlides" src="https://pennyful.in/img/hpbanner/banner2.jpg" style="width:100% ;height:250px;">
+            <img class="mySlides" src="http://img5a.flixcart.com/www/promos/new/20151210-114111-1-5.jpg" style="width:100% ;height:250px;">
+            <img class="mySlides" src="http://img5a.flixcart.com/www/promos/new/20140922-112828-banner-3-shop-now.jpg" style="width:100% ;height:250px;">
+          </div> -->
+          
+    <div id="sidebar">
+<h3>Filters</h3>
+100<input type="range" id="range" name="points" min="0" max="10">1000
+    </div>
+    <div id="price_range">
+<ul class="priceSorting">
+    <li class="sorting"><strong>Sort By</strong></li>
+    <li class="sorting" onclick="highToLow();">Price -- High Low</li>
+    <li class="sorting" onclick="lowToHigh();">Price -- Low High</li>
+    <li class="sorting" onclick="Discounts();">Discount</li>
+</ul>
+    </div>
+    <div id="product-list" class="mainDiv">
+ <div class="pro_pic"><img class="imgDynamic" src="" alt="product1" id="image_id1"><div class="inner_div_price" id="inner_content1" >
+     
+ </div>
+ <div class="Add_to_cart"> <button class="cart_class" id="cart_button1" onclick="getValue();">Add to Cart</button></div>
+</div>
+ <div class="pro_pic"><img class="imgDynamic" src="" alt="product2" id="image_id2"><div class="inner_div_price" id="inner_content2">
+    
+ </div>
+ <div class="Add_to_cart"> <button class="cart_class" id="cart_button2"  onclick="getValue();">Add to Cart</button></div>
+</div>
+ <div class="pro_pic"><img class="imgDynamic" src="" alt="product3" id="image_id3"><div class="inner_div_price"id="inner_content3" >
+    
+ </div>
+ <div class="Add_to_cart"> <button class="cart_class" id="cart_button3" onclick="getValue();">Add to Cart</button></div>
+</div>
+
+ <div class="pro_pic"><img class="imgDynamic" src="" alt="product4" id="image_id4"><div class="inner_div_price" id="inner_content4" >
+   
+ </div>
+ <div class="Add_to_cart"> <button class="cart_class" id="cart_button4" onclick="getValue();">Add to Cart</button></div>
+</div>
+ <div class="pro_pic"><img class="imgDynamic" src="" alt="product5" id="image_id5"><div class="inner_div_price" id="inner_content5">
+    
+ </div>
+ <div class="Add_to_cart"> <button class="cart_class" id="cart_button5" onclick="getValue();">Add to Cart</button></div>
+</div>
+
+    </div>
+    <div class="success-checkmark" id="checkmark" style="display:none;">
+            <div class="check-icon">
+              <span class="icon-line line-tip"></span>
+              <span class="icon-line line-long"></span>
+              <div class="icon-circle"></div>
+              <div class="icon-fix"></div>
+            </div>
+          </div>
+<!-- Cart -->
+
+<section class="container content-section">
+    <hr>
+    <h2 class="section-header" style="text-align: center;">CART</h2><hr>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">RS 0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+@media only screen and (max-width: 475px) and (min-width: 320px) {
+  #sidebar {
+    display: none;
+  }
+  .mainDiv {
+    padding-top: 550px;
+  }
+  #icons {
+    height: 50px;
+    width: 290px;
+    border-style: none;
+    float: right;
+    margin-right: 0px;
+    margin-top: -4px;
+  }
+  .fa-star {
+    font-size: 20px;
+    color: gold;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  #logo {
+    font-family: cursive;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 475px) {
+  #sidebar {
+    display: none;
+  }
+  .mainDiv {
+    padding-top: 550px;
+  }
+  #icons {
+    height: 50px;
+    width: 290px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  #sidebar {
+    display: none;
+  }
+  .mainDiv {
+    padding-top: 550px;
+  }
+  #icons {
+    height: 50px;
+    width: 290px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1350px) and (min-width: 993px) {
+  #sidebar {
+    display: none;
+  }
+  .mainDiv {
+    padding-top: 550px;
+  }
+  #icons {
+    height: 50px;
+    width: 290px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,44 @@
+{
+  "flipcart": [
+    {
+      "id": 9090,
+      "name": "Item1",
+      "price": 5999,
+      "discount": 222,
+      "category": "Jacket",
+      "img_url": "https://rukminim1.flixcart.com/image/800/960/jr58l8w0/jacket/p/p/j/m-mnw17jk009-metronaut-original-imafcyu4spqzzghf.jpeg?q=50"
+    },
+    {
+      "id": 9091,
+      "name": "Item2",
+      "price": 8999,
+      "discount": 999,
+      "category": "HeadPhone",
+      "img_url": "https://rukminim1.flixcart.com/image/416/416/k0vbgy80pkrrdj/headphone/n/j/j/boat-rockerz-on-ear-510-original-imafgzh948gxgvae.jpeg?q=70"
+    },
+    {
+      "id": 9092,
+      "name": "Item3",
+      "price": 999,
+      "discount": 399,
+      "category": "Protin Sacer",
+      "img_url": "https://images-na.ssl-images-amazon.com/images/I/41cYiQVLsBL.jpg"
+    },
+    {
+      "id": 9093,
+      "name": "Item4",
+      "price": 4999,
+      "discount": 99,
+      "category": "Watch",
+      "img_url": "https://rukminim1.flixcart.com/image/416/416/jg15aq80/smartwatch/6/w/9/dz09-gold-7-gtx-a-enew-original-imaf4dhtjs7ujkms.jpeg?q=70"
+    },
+    {
+      "id": 9094,
+      "name": "Item5",
+      "price": 3999,
+      "discount": 199,
+      "category": "Hair Drier",
+      "img_url": "https://rukminim1.flixcart.com/image/416/416/jqcns7k0/personal-care-app-combo/j/y/4/hair-dryer-and-curler-nova-original-imafc8h5t5agznxb.jpeg?q=70"
+    }
+  ]
+}

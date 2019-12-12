@@ -1,0 +1,25 @@
+.mainList, .mainListDrop {
+  display: inline;
+  margin-right: 100px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  color: #000;
+  z-index: 1;
+}
+
+.dropdown li:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+/*# sourceMappingURL=dropDown.css.map */

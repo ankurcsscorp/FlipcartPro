@@ -1,0 +1,59 @@
+$whiteText:#fff;
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+   background-color: blue;
+   color: $whiteText;
+  }
+ 
+  header{
+height: 80px;
+background-color: blue;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $whiteText;
+    
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color:$whiteText;
+   
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color:$whiteTextr;
+   
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color:$whiteText;
+   
+  }
+  .fa
+  {
+  .fa-search
+  {
+    color:white;
+    margin-left:68%;
+  }
+  .fa-cart-plus
+  {
+    font-size:30px;
+    color: white;
+    float: right;
+     margin-right: 50px;
+     margin-top: 20px;
+  }
+  .fa-star
+  {
+    font-size:40px;
+    color:gold;
+    margin-top: 15px;
+    margin-left: 10px;
+     margin-right: 5px;
+  }
+}
+  #search-box
+  {
+    color:white;
+    margin-left:1000px;
+  }
+ 

@@ -1,0 +1,83 @@
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  background-color: blue;
+}
+
+header {
+  height: 80px;
+  background-color: blue;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+  .fa-search
+  {
+    color:white;
+    /* margin-left:-20px; */
+    padding-left: 0px;
+  }
+  .fa-cart-plus
+  {
+    font-size:30px;
+    color: white;
+    /* float: right; */
+     /* margin-right: 50px;
+     margin-top: -29px; */
+     padding-top: 10px;
+     margin-left: 40px;
+  }
+  .fa-star
+  {
+    font-size:40px;
+    color:gold;
+    margin-top: 15px;
+    margin-left: 10px;
+     margin-right: 5px;
+  }
+  #search-box
+  {
+    color:white;
+    /* float: right; */
+    /* margin-right: 100px; */
+   
+  }
+  #logo
+  {
+    font-family: cursive;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 2%;
+  }
+  #cart_no
+  {
+    color: #fff;
+    float: right;
+    
+    margin-top: 5px;
+    
+    height: 15px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: solid 1px red;
+    background-color: red;
+    margin-right: 8px;
+   
+  }
+  #icons
+  {
+    
+    height: 50px;
+    width: 290px;
+    border: solid blue 1px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+
+  }
+  .mySlides {display:none;}
+/*# sourceMappingURL=header.css.map */
