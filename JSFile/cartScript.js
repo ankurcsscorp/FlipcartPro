@@ -29,6 +29,9 @@ function ready() {
 }
 
 function purchaseClicked() {
+    document.getElementById("cart_no").innerHTML = counter*0;
+    document.getElementById("cart_no").style.display="none";
+ 
     alert('Thank you for your purchase')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
