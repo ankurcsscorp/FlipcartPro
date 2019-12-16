@@ -5,7 +5,7 @@
 
 .priceSorting {
   float: right;
-  margin-top: -600px;
+  margin-top: -504px;
   margin-right: 350px;
 }
 
@@ -24,7 +24,7 @@
 
 #product-list {
   float: right;
-  margin-top: -550px;
+  margin-top: -475px;
   margin-right: 0px;
 }
 
@@ -51,5 +51,10 @@ html body {
   margin-left: 45px;
   margin-top: 7px;
   padding: 7px 22px;
+  cursor: pointer;
+}
+
+#sortTitle {
+  cursor: not-allowed;
 }
 /*# sourceMappingURL=contant.css.map */

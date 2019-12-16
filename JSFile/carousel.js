@@ -15,10 +15,12 @@ function carousel() {
 
 // DropDown javaScript
 
-function myFunction() {
+function myFunction1() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
-  
+  function myFunction2() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {

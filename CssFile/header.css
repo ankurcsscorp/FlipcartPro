@@ -5,7 +5,7 @@ input {
 }
 
 header {
-  height: 80px;
+  height: 50px;
   background-color: blue;
 }
 
@@ -34,7 +34,7 @@ header {
   {
     font-size:40px;
     color:gold;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 10px;
      margin-right: 5px;
   }
@@ -57,7 +57,7 @@ header {
     color: #fff;
     float: right;
     
-    margin-top: 5px;
+    margin-top: 6px;
     
     height: 15px;
     width: 20px;
@@ -75,9 +75,17 @@ header {
     width: 290px;
     border: solid blue 1px;
     float: right;
-    margin-top: 5px;
+    margin-top: -5px;
     margin-right: 20px;
 
   }
   .mySlides {display:none;}
+  body
+  {
+    width: 100%;
+    margin: 0px;
+    background-image: url('https://backgrounddownload.com/wp-content/uploads/2018/09/background-images-gray-color-4-300x200.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+  }
 /*# sourceMappingURL=header.css.map */

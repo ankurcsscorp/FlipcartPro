@@ -5,7 +5,7 @@
 .priceSorting
 {
     float: right;
-    margin-top: -600px;
+    margin-top: -504px;
     margin-right: 350px;
 }
 .pro_pic
@@ -26,7 +26,7 @@
 #product-list
 {
     float: right;
-    margin-top: -550px;
+    margin-top: -475px;
     margin-right: 0px;
 }
 .inner_div_price
@@ -56,5 +56,9 @@ html
     margin-left: 45px;
     margin-top: 7px;
     padding: 7px 22px;
+    cursor: pointer;
 }
-
+#sortTitle
+{
+    cursor: not-allowed;
+}
