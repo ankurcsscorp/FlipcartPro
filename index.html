@@ -61,10 +61,11 @@
             <img class="mySlides" src="http://img5a.flixcart.com/www/promos/new/20140922-112828-banner-3-shop-now.jpg" style="width:100% ;height:250px;">
           </div>
           
-    <div id="sidebar">
-<h3>Filters</h3>
-100<input type="range" id="range" name="points" min="0" max="10">1000
-    </div>
+    <div id="sidebar" class="mainSideBar">
+<h3 class ="sideBar_Header">Filters</h3>
+<b>Low</b><input type="range" id="range" name="points" min="0" max="2" oninput="sliderChange(this.value)"><b>High</b>
+    </div> 
+
     <div id="price_range">
 <ul class="priceSorting">
     <li class="sorting" id="sortTitle"><strong>Sort By</strong></li>

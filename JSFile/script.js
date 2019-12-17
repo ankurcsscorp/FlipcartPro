@@ -66,7 +66,21 @@ function BottomFunction() {
   //document.body.scrollTop = 720;
   document.documentElement.scrollTop = 720;
 }
-
+function sliderChange(val) {
+  if(val==0)
+  {
+    lowToHigh();
+    
+  }
+  else if(val==2)
+  {
+    highToLow();
+  }
+  else
+  {
+    Discounts();
+  }
+  }
 
 window.onload = loadDoc;
 

@@ -1,9 +1,22 @@
 @media only screen and (max-width: 475px) and (min-width: 320px) {
-  #sidebar {
+  // #sidebar {
+  //   // display: none;
+  // }
+  .mainSideBar
+  {
     display: none;
   }
+  // #price_range
+  // {
+  //   margin-top: -13px;
+  //   color: red;
+  //   display: inline;
+  //   float: left;
+  //   margin-right: -507px;
+    
+  // }
   .mainDiv {
-    padding-top: 550px;
+    padding-top: 967px;
   }
   #icons
   {
@@ -30,12 +43,11 @@
     font-size: 15px;
     color: #fff;
     margin-left: 0%;
-  }
-  .pro_pic
+  } 
+  #firstChild
   {
-    margin-top: 395px;
+    margin-left: 0px;
   }
-  
 }
 
 
@@ -44,7 +56,7 @@
     display: none;
   }
   .mainDiv {
-    padding-top: 550px;
+    padding-top: 967px;
   }
   #icons
   {
@@ -70,7 +82,7 @@
     display: none;
   }
   .mainDiv {
-    padding-top: 550px;
+    padding-top: 967px;
   }
   #icons
   {
@@ -83,10 +95,11 @@
     margin-right: 20px;
 
   }
-  .pro_pic
+  .pro_picproduct-list
   {
     margin-top: 395px;
   }
+  
 }
 
 @media only screen and (max-width: 1350px) and (min-width: 993px) {
@@ -94,7 +107,7 @@
     display: none;
   }
   .mainDiv {
-    padding-top: 550px;
+    padding-top: 967px;
   }
   #icons
   {

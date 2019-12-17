@@ -5,26 +5,26 @@
 
 .priceSorting {
   float: right;
-  margin-top: -857px;
+  margin-top: -846px;
   margin-right: 350px;
 }
 
 .pro_pic {
   height: 400px;
-  width: 200px;
+  width: 224px;
   border: 1px solid black;
   float: right;
-  margin: 10px;
+  margin: 3px;
 }
 
 .imgDynamic {
   height: 220px;
-  width: 200px;
+  width: 220px;
 }
 
 #product-list {
   float: right;
-  margin-top: -833px;
+  margin-top: -818px;
   margin-right: 21px;
 }
 
