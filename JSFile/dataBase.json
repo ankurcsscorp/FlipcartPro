@@ -39,6 +39,46 @@
       "discount": 199,
       "category": "Hair Drier",
       "img_url": "https://rukminim1.flixcart.com/image/416/416/jqcns7k0/personal-care-app-combo/j/y/4/hair-dryer-and-curler-nova-original-imafc8h5t5agznxb.jpeg?q=70"
+    },
+    {
+      "id": 9095,
+      "name": "Lip Cream",
+      "price": 199,
+      "discount":9,
+      "category": "Miss Claire Soft Matte Lip Cream",
+      "img_url": "https://rukminim1.flixcart.com/image/416/416/k2m6ufk0/lipstick/x/b/s/6-5-soft-matte-lip-cream-miss-claire-original-imafhxajphje8grz.jpeg?q=70"
+    },
+    {
+      "id": 9096,
+      "name": "Women Watch",
+      "price": 1999,
+      "discount": 199,
+      "category": "Analog-Digital Watch - For Women",
+      "img_url": "https://rukminim1.flixcart.com/image/800/960/j8rnpu80/watch/d/5/y/b172-casio-original-imaeymgrxhfmnw6f.jpeg?q=50"
+    },
+    {
+      "id": 9097,
+      "name": "Item8",
+      "price": 3999,
+      "discount": 499,
+      "category": "Wireless Bluetooth Headset with Mic",
+      "img_url": "https://rukminim1.flixcart.com/image/416/416/k3uhhu80/headphone/s/u/r/noise-shots-x-buds-truly-wireless-original-imafmvw3gxwfkmfu.jpeg?q=70"
+    },
+    {
+      "id": 9098,
+      "name": "card",
+      "price": 999,
+      "discount": 90,
+      "category": "HP U1 128 GB MicroSDXC",
+      "img_url": "https://rukminim1.flixcart.com/image/416/416/jhs0o7k0/memory-card/microsdxc/v/z/p/hp-mx310-original-imaf5pxj8kxzymwf.jpeg?q=70"
+    },
+    {
+      "id": 9099,
+      "name": "casual shoes",
+      "price": 599,
+      "discount": 99,
+      "category": "Women Casual Boots",
+      "img_url": "https://rukminim1.flixcart.com/image/800/960/jmp79u80/shoe/w/e/s/pn1-38-toshina-shoes-king-black-original-imaf9gdcheevcydk.jpeg?q=50"
     }
   ]
 }

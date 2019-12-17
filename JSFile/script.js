@@ -7,6 +7,7 @@ function loadDoc() {
     if (this.readyState == 4 && this.status == 200) {
       Data = JSON.parse(this.responseText);
       for (var i = 0  ; i < Data.length; i++) {
+        // alert(Data.length)
         inneContent ="Category → " +Data[i].category +" <br><br>" +"Price → " +Data[i].price +"<br><br>" +"Discount → " +Data[i].discount;
         document.getElementById("image_id" + (i+1)).src = Data[i].img_url;
         document.getElementById("inner_content" + (i+1)).innerHTML = inneContent;
@@ -19,35 +20,41 @@ function loadDoc() {
 function highToLow()
 {
   // alert(Data)
-  Data.sort(function(a, b){return a.price - b.price});
+  Data.sort(function(a, b){return b.price - a.price});
 console.log(Data)
-for (var i = 0  ; i < Data.length; i++) {
+for (var i = Data.length-1  ; i >= 0; i--) {
+  let k=(((Math.floor(i/5)+1)*5)-(i%5));
+  console.log(k);
   inneContent ="Category → " +Data[i].category +" <br><br>" +"Price → " +Data[i].price +"<br><br>" +"Discount → " +Data[i].discount;
-  document.getElementById("image_id" + (i+1)).src = Data[i].img_url;
-  document.getElementById("inner_content" + (i+1)).innerHTML = inneContent;
+  document.getElementById("image_id" + k).src = Data[i].img_url;
+  document.getElementById("inner_content" + k).innerHTML = inneContent;
 }
 }
 
 function lowToHigh()
 {
   // alert(Data)
-  Data.sort(function(a, b){return b.price - a.price});
+  Data.sort(function(a, b){return a.price - b.price});
 console.log(Data)
-for (var i = 0  ; i < Data.length; i++) {
+for (var i = Data.length-1  ; i >= 0; i--) {
+  let k=(((Math.floor(i/5)+1)*5)-(i%5));
+  console.log(k);
   inneContent ="Category → " +Data[i].category +" <br><br>" +"Price → " +Data[i].price +"<br><br>" +"Discount → " +Data[i].discount;
-  document.getElementById("image_id" + (i+1)).src = Data[i].img_url;
-  document.getElementById("inner_content" + (i+1)).innerHTML = inneContent;
+  document.getElementById("image_id" + k).src = Data[i].img_url;
+  document.getElementById("inner_content" + k).innerHTML = inneContent;
 }
 }
 function Discounts()
 {
   // alert(Data)
-  Data.sort(function(a, b){return a.discount - b.discount});
+  Data.sort(function(a, b){return b.discount - a.discount});
 console.log(Data)
-for (var i = 0  ; i < Data.length; i++) {
+for (var i = Data.length-1  ; i >= 0; i--) {
+  let k=(((Math.floor(i/5)+1)*5)-(i%5));
+  console.log(k);
   inneContent ="Category → " +Data[i].category +" <br><br>" +"Price → " +Data[i].price +"<br><br>" +"Discount → " +Data[i].discount;
-  document.getElementById("image_id" + (i+1)).src = Data[i].img_url;
-  document.getElementById("inner_content" + (i+1)).innerHTML = inneContent;
+  document.getElementById("image_id" + k).src = Data[i].img_url;
+  document.getElementById("inner_content" + k).innerHTML = inneContent;
 }
 }
 var counter=0;

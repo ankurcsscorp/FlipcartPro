@@ -26,6 +26,9 @@
     color: #fff;
     margin-left: 0%;
   }
+  .pro_pic {
+    margin-top: 395px;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 475px) {
@@ -42,6 +45,9 @@
     margin-top: -5px;
     margin-right: 20px;
   }
+  .pro_pic {
+    margin-top: 395px;
+  }
 }
 
 @media only screen and (max-width: 992px) and (min-width: 769px) {
@@ -57,6 +63,9 @@
     float: right;
     margin-top: -5px;
     margin-right: 20px;
+  }
+  .pro_pic {
+    margin-top: 395px;
   }
 }
 
