@@ -63,7 +63,7 @@
           
     <div id="sidebar" class="mainSideBar">
 <h3 class ="sideBar_Header">Filters</h3>
-<b>Low</b><input type="range" id="range" name="points" min="0" max="2" oninput="sliderChange(this.value)"><b>High</b>
+<b onclick="lowToHigh()">Low</b><input type="range" id="range" name="points" min="0" max="2" oninput="sliderChange(this.value)"><b onclick="highToLow()">High</b>
     </div> 
 
     <div id="price_range">

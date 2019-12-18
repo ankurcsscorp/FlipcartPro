@@ -3,6 +3,7 @@
   height: 855px;
   width: 155px;
   margin-top: 101px;
+  cursor: pointer;
 }
 
 .sorting {
@@ -17,5 +18,6 @@
 #range {
   margin-left: 10px;
   width: 78px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=sidebar.css.map */
