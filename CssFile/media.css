@@ -1,4 +1,37 @@
 @media only screen and (max-width: 475px) and (min-width: 320px) {
+  .cart_class {
+    margin-left: 83px;
+    /* margin-bottom: 134px; */
+    margin-top: 4px;
+    padding: 7px 22px;
+    cursor: pointer;
+  }
+  .imgDynamic {
+    height: 228px;
+    width: 100%;
+  }
+  .inner_div_price {
+    height: 116px;
+    width: 200px;
+    border-style: none;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 68px;
+    line-height: 0.9em;
+  }
+  .pro_pic {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    float: right;
+    margin: 3px;
+    margin-right: -17px;
+  }
+  #product-list {
+    float: right;
+    margin-top: -976px;
+    margin-right: 21px;
+  }
   .mainSideBar {
     display: none;
   }
@@ -11,7 +44,7 @@
     border-style: none;
     float: right;
     margin-right: -5px;
-    margin-top: -1%;
+    margin-top: -11%;
   }
   .fa-star {
     font-size: 20px;
@@ -26,8 +59,18 @@
     color: #fff;
     margin-left: 0%;
   }
-  #firstChild {
-    margin-left: 0px;
+  .dropdown {
+    display: none;
+  }
+  .priceSorting, .sorting {
+    display: inline-block;
+  }
+  .priceSorting {
+    float: right;
+    margin-top: 107px;
+    margin-right: 20px;
+    /* padding-bottom: 10px; */
+    line-height: 1.5em;
   }
 }
 
