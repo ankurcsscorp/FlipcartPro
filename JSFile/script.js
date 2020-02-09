@@ -70,7 +70,7 @@ function getValue() {
 }
 function BottomFunction() {
   //document.body.scrollTop = 720;
-  document.documentElement.scrollTop = 2000;
+  document.documentElement.scrollTop = 10000;
 }
 function sliderChange(val) {
   if(val==0)

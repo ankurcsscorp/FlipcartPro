@@ -72,6 +72,9 @@
     /* padding-bottom: 10px; */
     line-height: 1.5em;
   }
+  .sorting {
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 475px) {
