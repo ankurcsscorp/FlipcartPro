@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flipkart</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="CssFile/header.css">
-<link rel="stylesheet" href="CssFile/media.css">
+<!-- <link rel="stylesheet" href="CssFile/media.css"> -->
 <link rel="stylesheet" href="CssFile/sidebar.css">
 <link rel="stylesheet" href="CssFile/contant.css">
 <link rel="stylesheet" href="CssFile/dropDown.css">
@@ -74,58 +75,59 @@
     <li class="sorting" onclick="Discounts();">Discount</li>
 </ul>
     </div>
-    <div id="product-list" class="mainDiv">
+    <div class="container">
+    <div id="product-list" class="row mainDiv">
        
- <div class="pro_pic"><img class="imgDynamic" src="" alt="product1" id="image_id1"><div class="inner_div_price" id="inner_content1" >
+ <div class="col-12 col-sm-3 col-md-4 col-lg-3 col-xl-3 pro_pic"><img class="imgDynamic" src="" alt="product1" id="image_id1"><div class="inner_div_price" id="inner_content1" >
      
  </div>
  <div class="Add_to_cart"> <button class="cart_class" id="cart_button1" onclick="getValue();">Add to Cart</button></div>
 </div>
- <div class="pro_pic"><img class="imgDynamic" src="" alt="product2" id="image_id2"><div class="inner_div_price" id="inner_content2">
+ <div class="col-12 col-sm-3 col-md-4 col-lg-3 col-xl-3 pro_pic"><img class="imgDynamic" src="" alt="product2" id="image_id2"><div class="inner_div_price" id="inner_content2">
     
  </div>
  <div class="Add_to_cart"> <button class="cart_class" id="cart_button2"  onclick="getValue();">Add to Cart</button></div>
 </div>
- <div class="pro_pic"><img class="imgDynamic" src="" alt="product3" id="image_id3"><div class="inner_div_price"id="inner_content3" >
+ <div class="col-12 col-sm-3 col-md-4 col-lg-3 col-xl-3 pro_pic"><img class="imgDynamic" src="" alt="product3" id="image_id3"><div class="inner_div_price"id="inner_content3" >
     
  </div>
  <div class="Add_to_cart"> <button class="cart_class" id="cart_button3" onclick="getValue();">Add to Cart</button></div>
 </div>
 
- <div class="pro_pic"><img class="imgDynamic" src="" alt="product4" id="image_id4"><div class="inner_div_price" id="inner_content4" >
+ <div class="col-12 col-sm-3 col-md-4 col-lg-3 col-xl-3 pro_pic"><img class="imgDynamic" src="" alt="product4" id="image_id4"><div class="inner_div_price" id="inner_content4" >
    
  </div>
  <div class="Add_to_cart"> <button class="cart_class" id="cart_button4" onclick="getValue();">Add to Cart</button></div>
 </div>
- <div class="pro_pic"><img class="imgDynamic" src="" alt="product5" id="image_id5"><div class="inner_div_price" id="inner_content5">
+ <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 pro_pic"><img class="imgDynamic" src="" alt="product5" id="image_id5"><div class="inner_div_price" id="inner_content5">
     
  </div>
  <div class="Add_to_cart"> <button class="cart_class" id="cart_button5" onclick="getValue();">Add to Cart</button></div>
 </div>
 
 <!--<div id="secondRowOfProduct">-->
-    <div class="pro_pic"><img class="imgDynamic" src="" alt="product6" id="image_id6"><div class="inner_div_price" id="inner_content6" >
+    <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 pro_pic"><img class="imgDynamic" src="" alt="product6" id="image_id6"><div class="inner_div_price" id="inner_content6" >
      
     </div>
     <div class="Add_to_cart"> <button class="cart_class" id="cart_button6" onclick="getValue();">Add to Cart</button></div>
    </div>
-    <div class="pro_pic"><img class="imgDynamic" src="" alt="product7" id="image_id7"><div class="inner_div_price" id="inner_content7">
+    <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 pro_pic"><img class="imgDynamic" src="" alt="product7" id="image_id7"><div class="inner_div_price" id="inner_content7">
        
     </div>
     <div class="Add_to_cart"> <button class="cart_class" id="cart_button7"  onclick="getValue();">Add to Cart</button></div>
    </div>
-    <div class="pro_pic"><img class="imgDynamic" src="" alt="product8" id="image_id8"><div class="inner_div_price"id="inner_content8" >
+    <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 pro_pic"><img class="imgDynamic" src="" alt="product8" id="image_id8"><div class="inner_div_price"id="inner_content8" >
        
     </div>
     <div class="Add_to_cart"> <button class="cart_class" id="cart_button8" onclick="getValue();">Add to Cart</button></div>
    </div>
    
-    <div class="pro_pic"><img class="imgDynamic" src="" alt="product9" id="image_id9"><div class="inner_div_price" id="inner_content9" >
+    <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 pro_pic"><img class="imgDynamic" src="" alt="product9" id="image_id9"><div class="inner_div_price" id="inner_content9" >
       
     </div>
     <div class="Add_to_cart"> <button class="cart_class" id="cart_button9" onclick="getValue();">Add to Cart</button></div>
    </div>
-    <div class="pro_pic"><img class="imgDynamic" src="" alt="product10" id="image_id10"><div class="inner_div_price" id="inner_content10">
+    <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 pro_pic"><img class="imgDynamic" src="" alt="product10" id="image_id10"><div class="inner_div_price" id="inner_content10">
        
     </div>
     <div class="Add_to_cart"> <button class="cart_class" id="cart_button10" onclick="getValue();">Add to Cart</button></div>
@@ -133,6 +135,7 @@
 
 <!--</div>-->
     </div>
+</div>
     <div class="success-checkmark" id="checkmark" style="display:none;">
             <div class="check-icon">
               <span class="icon-line line-tip"></span>
